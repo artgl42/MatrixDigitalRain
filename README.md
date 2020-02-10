@@ -1,7 +1,5 @@
 # MatrixDigitalRain (DLL)
 
-Emulator (in C#) for matrix digital rain and other effects.
-
 ![matrix_digital_rain.gif](matrix_digital_rain.gif "Animation for MatrixDigitalRain")
 
 ## Description
