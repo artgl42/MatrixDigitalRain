@@ -4,7 +4,7 @@
 
 ## Description
 
-This console application emulates matrix digital rain in the console window and various other effects. The application is a fan remake of the matrix digital rain effect from [The Matrix](https://en.wikipedia.org/wiki/The_Matrix).
+This console application emulates [matrix digital rain](https://en.wikipedia.org/wiki/Matrix_digital_rain) in the console window and various other effects. The application is a fan remake of the matrix digital rain effect from [The Matrix](https://en.wikipedia.org/wiki/The_Matrix).
 
 ## API
 
