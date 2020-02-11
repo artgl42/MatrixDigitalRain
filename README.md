@@ -13,10 +13,10 @@ This console application emulates [matrix digital rain](https://en.wikipedia.org
 Methods               | Parameters             | Description
 :-------------------- | :--------------------: |:--------------------------------
 `SetSkipIntro`        | `bool` skipIntro       | **True** - skip the introduction (run only the matrix rain). **False** (default value) - don't skip the introduction.
-`SetRandomColor`      | `bool` randomColor     | **True** - run a multicolored matrix rain. **False** (default value)Run the green matrix rain.
+`SetRandomColor`      | `bool` randomColor     | **True** - run a multicolored matrix rain. **False** (default value) - run the green matrix rain.
 `SetShowQuoteAfter`   | `int` showQuoteAfter   | Set the frequency of quotes during the matrix rain (default value - 290).
 `SetResetMatrixAfter` | `int` resetMatrixAfter | Set the frequency of reset the matrix rain (default value - 300).
-`SetTextASCII`         | `string[,]` textASCII  | Set your ASCII-text for the introduction.
+`SetTextASCII`        | `string[,]` textASCII  | Set your ASCII-text for the introduction.
 
 ### Matrix Class
 
@@ -70,16 +70,6 @@ or
 matrix.RunMatrixColumns();
 ```
 
-## Keyboard shortcut
-
-Keys          | Description
-:------------ | :----------------------------------------------------------
-**F1**        | Press the key to display help.
-**Escape**    | Press the key to clear console.
-**1..6**      | Press the number key to change the color of the matrix rain.
-**UpArrow**   | Press the key to slow down the matrix rain.
-**DownArrow** | Press the key to speed up the matrix rain.
-
 ## Simple example
 
 ```C#
@@ -89,6 +79,18 @@ IMatrix matrix = new Matrix.Builder()
 
 matrix.RunFullVersion();
 ```
+
+## Keyboard shortcut
+
+Keys          | Description
+:------------ | :----------------------------------------------------------
+**F1**        | Press the key to display help.
+**Escape**    | Press the key to restart app.
+**1..6**      | Press the number key to change the color of the matrix rain.
+**UpArrow**   | Press the key to slow down the matrix rain.
+**DownArrow** | Press the key to speed up the matrix rain.
+**Spacebar**  | Press the key to pause.
+**Enter**     | Press the key to display the command line.
 
 ## Licence
 
