@@ -7,8 +7,8 @@
     <ProjectGuid>{52C6BAE0-5CBF-46C0-85B7-2D66A1E365FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MatrixDigitalRainLibrary</RootNamespace>
-    <AssemblyName>MatrixDigitalRainLibrary</AssemblyName>
+    <RootNamespace>MatrixDigitalRain</RootNamespace>
+    <AssemblyName>MatrixDigitalRain</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
