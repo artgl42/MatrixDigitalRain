@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixDigitalRain", "MatrixRainLibrary\MatrixDigitalRain.csproj", "{52C6BAE0-5CBF-46C0-85B7-2D66A1E365FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixDigitalRain", "MatrixDigitalRain\MatrixDigitalRain.csproj", "{52C6BAE0-5CBF-46C0-85B7-2D66A1E365FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
